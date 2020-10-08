@@ -1,0 +1,81 @@
+html, body{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0
+    }
+.first{
+    width:1920px;
+    height:1040px;
+    background-image: url(img/Shape\ 1.png);
+
+}
+.first-header{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.signup{
+    font-weight: 500;
+    margin-right: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end
+}
+.appson{
+    font-weight: 600;
+    margin-left: 140px;
+    width: 180px;
+    height: 100px;
+    background-color: #0f7bff;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: white;
+}
+.first-header-home{
+    font-size: 16px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 45px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #0f7bff;
+}
+.first-header-a{
+    font-size: 16px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 45px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #929292;
+}
+.first-header-button{
+    color: white;
+    text-transform: uppercase;
+    width: 160px;
+    height: 50px;
+    border: none;
+    background-color: #0063dd;
+    border-radius: 30px 30px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.first-middle-1{
+display: flex;
+justify-content: center;
+}
+.first-middle-2{
+    width: 620px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.first-middle-buttons{
+    display: flex;
+    flex-direction: row;
+}
