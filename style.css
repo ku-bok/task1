@@ -7,7 +7,6 @@ html, body{
     width:1920px;
     height:1040px;
     background-image: url(img/Shape\ 1.png);
-
 }
 .first-header{
     height: 100px;
@@ -39,7 +38,7 @@ html, body{
     font-size: 16px;
     margin-left: 25px;
     margin-right: 25px;
-    margin-top: 45px;
+    margin-top: 44px;
     text-decoration: none;
     text-transform: uppercase;
     color: #0f7bff;
@@ -48,15 +47,16 @@ html, body{
     font-size: 16px;
     margin-left: 25px;
     margin-right: 25px;
-    margin-top: 45px;
+    margin-top: 44px;
     text-decoration: none;
     text-transform: uppercase;
     color: #929292;
 }
 .first-header-button{
+    font-size: 16px;
     color: white;
     text-transform: uppercase;
-    width: 160px;
+    width: 165px;
     height: 50px;
     border: none;
     background-color: #0063dd;
@@ -65,8 +65,8 @@ html, body{
     margin-top: 25px;
 }
 .first-middle-1{
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 .first-middle-2{
     width: 620px;
@@ -74,8 +74,57 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .first-middle-buttons{
     display: flex;
     flex-direction: row;
+}
+.first-middle-button-left{
+    width: 165px;
+    height: 50px;
+    border-radius: 30px 30px;
+    margin-top: 40px;
+    background-color: #0f7bff;
+    border: none;
+    margin-right: 15px;
+}
+.first-middle-button-right{
+    margin-left: 15px;
+    width: 165px;
+    height: 50px;
+    border-radius: 30px 30px;
+    margin-top: 40px;
+    border: 2px solid #0f7bff;
+}
+.best-desk{
+    font-size: 36px;
+    font-weight: 600;
+    color: #333333;
+}
+.lorem-middle{
+    text-align: center;
+    font-size: 16px;
+    color: #9fa0a0;
+}
+.first-bottom{
+    display: flex;
+    justify-content: center;
+}
+.device-back{
+    height: 100%;
+    z-index: 1;
+    margin-top: 40px;
+}
+.device-middle{
+    margin-left: -140px;
+    margin-right: -140px;
+    margin-top: -70px;
+    z-index: 2;
+}
+.second{
+    z-index: 3;
+    width: 1920px;
+    height: 635px;
+    background-image: url(img/bg.png);
 }
