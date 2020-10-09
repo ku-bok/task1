@@ -85,9 +85,11 @@ html, body{
     height: 50px;
     border-radius: 30px 30px;
     margin-top: 40px;
+    color: #ffffff;
     background-color: #0f7bff;
     border: none;
     margin-right: 15px;
+    font-weight: 600;
 }
 .first-middle-button-right{
     margin-left: 15px;
@@ -96,10 +98,13 @@ html, body{
     border-radius: 30px 30px;
     margin-top: 40px;
     border: 2px solid #0f7bff;
+    color: #0f7bff;
+    font-weight: 600;
 }
 .best-desk{
+    margin-bottom: 40px;
     font-size: 36px;
-    font-weight: 600;
+    font-weight: 700;
     color: #333333;
 }
 .lorem-middle{
@@ -164,9 +169,81 @@ html, body{
 }
 .title-block{
     font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .lorem-block{
     font-size: 16px;
     text-align: center;
     color: #929292;
+    line-height: 1.5;
+}
+.third{
+    width: 1920px;
+    height: 1190px;
+    background-image: url(img/Background.png);
+}
+.third-blocks{   
+    display: flex;
+    justify-content: center;
+}
+.third-screan{
+    margin-top: 60px;
+    display: flex;
+}
+.screan-top-left{
+    margin-left: 80px;
+}
+.screan-top-right{
+    margin-top: 30px;
+    width: 90%;
+    height: 90%;
+    margin-left: -200px;
+}
+.screan-bot-left{
+    margin-left: 20px;
+}
+.screan-bot-right{
+    margin-top: 30px;
+    width: 90%;
+    height: 90%;
+    margin-left: -180px;
+}
+.third-text-top{
+    padding-left: 100px;
+    width: 555px;
+    height: 220px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+.third-text-bot{
+    margin-right: 20px;
+    width: 555px;
+    height: 220px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+.lorem-block-left{
+    line-height: 1.5;
+    width: 540px;
+    height: 210px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #929292;
+}
+.third-title{
+    font-weight: 600;
+    margin-top: 225px;
+    font-size: 32px;
+    color: #333333;
+}
+.more{
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #0f7bff;
 }
