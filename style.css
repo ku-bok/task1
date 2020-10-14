@@ -192,7 +192,8 @@ html, body{
 .third{
     width: 100%;
     height: 1190px;
-    background-image: url(img/Background.png);
+    background: url(img/Background.png) no-repeat;
+    background-size: 100%;
 }
 .third-blocks{   
     display: flex;
@@ -295,8 +296,8 @@ html, body{
     text-align: center;
 }
 .progress-block{
-    margin-left: 45px;
-    margin-right: 45px;
+    margin-left: 40px;
+    margin-right: 40px;
     width: 300px;
     height: 220px;
 }
@@ -759,4 +760,194 @@ html, body{
     position: absolute;
     left: 48.3%;
     top: 1008px;
+}
+@media (max-width: 800px) {
+    h1{font-size: 16px !important;}
+    h2{font-size: 12px !important;}
+    h3{font-size: 12px !important;}
+    h4{font-size: 12px !important;}
+    a{font-size: 12px !important;}
+    .button1{
+        width: 100px;
+        height: 35px;
+        line-height: 37px;
+    }
+    .button2{
+        width: 100px;
+        height: 35px;
+        line-height: 37px;
+    }
+    .button3{
+        width: 100px;
+        height: 35px;
+        line-height: 37px;
+    }
+    .button4{
+        width: 100px;
+        height: 35px;
+        line-height: 37px;
+    }
+    .first{
+        height: 400px;
+    }
+    .signup{
+        margin-right: 10px;
+    }
+    .appson{
+        margin-left: 10px;
+    }
+    .sixth-img{
+        visibility: hidden;
+    }
+    .device-back{
+        visibility: hidden;
+    }
+    .device-middle{
+        visibility: hidden;
+    }
+    .screan-bot-left{
+        margin-top: 15px;
+        width: 60%;
+        height: 60%;
+    }
+    .screan-bot-right{
+        visibility: hidden;
+    }
+    .screan-top-right{
+        visibility: hidden;
+    }
+    .screan-top-left{
+        margin-top: 15px;
+        width: 60%;
+        height: 60%;
+    }
+    lorem-block-left{
+        font-size: 12px;
+    }
+    .third-title{
+        margin-top: 50px;
+        font-size: 24px;
+    }   
+    .second-block-middle{
+        width: 200px;
+    }  
+    .second-block{
+        width: 200px;
+    } 
+    .third{
+        height: 700px;
+        background-image: url(img/bgLatest.png);
+    }
+    .third-blocks{
+        width: 100%;
+        height: 50%;
+    }
+    .third-text-top{
+        width: 500px;
+        margin-top: 20px;
+        padding-left: 0;
+    }
+    .third-text-bot{
+        width: 500px;
+        margin-left: 30px;
+    }
+    .scroll{visibility:hidden;}
+    .scrolldown{visibility:hidden;}
+    .fourth{
+        background-image: url(img/bgTestim.png);
+    }
+    .img-progress{
+        margin-left: 40px;
+    }
+    .price{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 200px;
+        height: 550px;
+    }
+    .fifth-img{
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+    .line{
+        height: 2px;
+        margin-left: 30px;
+        width: 145px;
+        color: #e0e0e0;
+    }
+    .buy{
+        margin-left: 40px;
+    }
+    .period{
+        margin-left: 20px;
+    }
+    .sixth-left{
+        width: 1px;
+        visibility: hidden;
+    }
+    .sim-slider{
+        margin-right: 50px;
+    }
+    .margright24{
+        margin-right: 70px;
+    }
+    .margright10{
+        margin-right: 20px;
+    }
+    .seventh-left{
+        margin-right: 15px;
+        width: 300px;
+        height: 430px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+    .seventh-right{
+        margin-left: 15px;
+        width: 300px;
+        height: 270px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+    .news-title{
+        width: 150px;
+    }
+    .margleft30{
+        width: 150px;
+    }
+    .marginbot40{
+        margin-bottom: 30px;
+    }
+    .seventh-lorem{
+        width: 150px;
+    }
+    .screan-top-left{
+        margin-left: 20px;
+    }
+}
+@media (min-width: 800px) and (max-width: 1400px) {
+    .screan-bot-left{
+        width: 60%;
+        height: 60%;
+    }
+    .screan-bot-right{
+        width: 50%;
+        height: 50%;
+    }
+    .screan-top-right{
+        width: 50%;
+        height: 50%;
+    }
+    .screan-bot-left{
+        width: 60%;
+        height: 60%;
+    }
+    lorem-block-left{
+        font-size: 12px;
+    }
+    .third-title{
+        font-size: 24px;
+    } 
+   
 }
