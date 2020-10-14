@@ -542,3 +542,221 @@ html, body{
     border-radius: 5px;
     cursor: pointer;
   }
+.seventh{
+    background-image: url(img/bgLatest.png);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 960px;
+    align-items: center;
+}
+.latest{
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 152px;
+    margin-bottom: 50px;
+}
+.latest-title{
+    font-size: 32px;
+    color: #333333;
+    text-align: center;
+}
+.seventh-blocks{
+    display: flex;
+    justify-content: center;
+}
+.seventh-left{
+    margin-right: 15px;
+    width: 555px;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.seventh-right{
+    margin-left: 15px;
+    width: 555px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.news{
+    width: 555px;
+    height: 125px;
+    display: flex;
+    justify-content: left;
+}
+.seventh-left-title{
+    font-weight: 600;
+    font-size: 24px;
+    color: #0f7bff;
+    margin-top: 40px;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+.news-title{
+    font-weight: 600;
+    color: #333333;
+    font-size: 18px;
+    text-decoration: none;
+}
+.marginbot40{
+    margin-bottom: 40px;
+}
+.seventh-lorem{
+    color: #929292;
+    font-size: 16px;
+    margin-bottom: 40px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+.eighth{
+    width: 100%;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/bgFree.png);
+}
+.eighth-title{
+    font-size: 32px;
+    color: #333333;
+    font-weight: 600;
+}
+.eighth-lorem{
+    color: #929292;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.eighth-left{
+    margin-right: 80px;
+}
+.eighth-right{
+    margin-left: 80px;
+}
+.started{
+    font-weight: 600;
+    line-height: 75px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background: #0f7bff;
+    border: 2px solid #0f7bff;
+    border-radius: 5px 5px;
+    height: 75px;
+    width: 265px;
+    overflow: hidden;
+    display: block;
+}
+.started:hover{
+    color: #0f7bff;
+    background: #ffffff;
+    border: 2px solid #0f7bff;
+}
+.ninth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/BackgroundSub.png);
+    width: 100%;
+    height: 385px;
+}
+.inemail{
+    width: 390px;
+    height: 60px;
+    border-radius: 30px 0 0 30px;
+    border: 2px solid #ffffff;
+    background-color: #0f7bff;
+    padding-left: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subbut{
+    font-weight: 700;
+    line-height: 62px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background: #0063dd;
+    border: 2px solid #0063dd;
+    border-radius: 0 30px 30px 0;
+    height: 62px;
+    width: 165px;
+    overflow: hidden;
+    display: block;
+}
+.subbut:hover{
+    color: #0063dd;
+    background: #ffffff;
+    border: 2px solid #ffffff;
+}
+.appsonlast{
+    font-weight: 600;
+    text-align: center;
+    font-size: 36px;
+    color: white;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-image: url(img/BackgroundSub.png);
+}
+.white{
+    height: 1px;
+    color: #ffffff;
+    margin: 0;
+}
+.footer-row{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.copy{
+    font-size: 16px;
+    color: #ffffff;
+}
+.margright24{
+    margin-right: 240px;
+}
+.margright10{
+    margin-right: 100px;
+}
+.priv{
+    font-size: 16px;
+    color: #bdccdd;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.soc{
+    margin-left: 15px;
+}
+.scroll{
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    z-index: 9999;
+    bottom: 25px;
+    right: 150px;
+}
+.scrolldown{
+    z-index: 9999;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 48.3%;
+    top: 1008px;
+}
