@@ -4,7 +4,7 @@ html, body{
     padding: 0
     }
 .first{
-    width:1920px;
+    width:100%;
     height:1040px;
     background-image: url(img/Shape\ 1.png);
 }
@@ -52,17 +52,49 @@ html, body{
     text-transform: uppercase;
     color: #929292;
 }
-.first-header-button{
-    font-size: 16px;
-    color: white;
+.margleft30{
+    margin-left: 30px;
+}
+.button1{
+    font-weight: 600;
+    line-height: 53px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
     text-transform: uppercase;
-    width: 165px;
-    height: 50px;
-    border: none;
-    background-color: #0063dd;
+    background: #0063dd;
+    border: 2px solid #0063dd;
     border-radius: 30px 30px;
-    margin-left: 25px;
+    height: 53px;
+    width: 165px;
     margin-top: 25px;
+    overflow: hidden;
+    display: block;
+}
+.button2{
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background: #0063dd;
+    border: 2px solid #0063dd;
+    border-radius: 30px 30px;
+    height: 48px;
+    width: 165px;
+    margin-top: 25px;
+    overflow: hidden;
+    display: block;
+}
+.button2:hover{
+    color: #0f7bff;
+    background: #ffffff;
+    border: 2px solid #0f7bff;
+}
+.button1:hover{
+    color: #0f7bff;
+    background: #ffffff;
+    border: 2px solid #0f7bff;
 }
 .first-middle-1{
     display: flex;
@@ -79,27 +111,6 @@ html, body{
 .first-middle-buttons{
     display: flex;
     flex-direction: row;
-}
-.first-middle-button-left{
-    width: 165px;
-    height: 50px;
-    border-radius: 30px 30px;
-    margin-top: 40px;
-    color: #ffffff;
-    background-color: #0f7bff;
-    border: none;
-    margin-right: 15px;
-    font-weight: 600;
-}
-.first-middle-button-right{
-    margin-left: 15px;
-    width: 165px;
-    height: 50px;
-    border-radius: 30px 30px;
-    margin-top: 40px;
-    border: 2px solid #0f7bff;
-    color: #0f7bff;
-    font-weight: 600;
 }
 .best-desk{
     margin-bottom: 40px;
@@ -132,7 +143,7 @@ html, body{
     justify-content: center;
     align-items: center;
     z-index: 3;
-    width: 1920px;
+    width: 100%;
     height: 635px;
     background-image: url(img/bg.png);
 }
@@ -179,7 +190,7 @@ html, body{
     line-height: 1.5;
 }
 .third{
-    width: 1920px;
+    width: 100%;
     height: 1190px;
     background-image: url(img/Background.png);
 }
@@ -248,7 +259,7 @@ html, body{
     color: #0f7bff;
 }
 .fourth{
-    width: 1920px;
+    width: 100%;
     height: 645px;
     background-image: url(img/BackgroundHow.png);
 }
@@ -299,7 +310,7 @@ html, body{
     margin-left: 100px;
 }
 .fifth{
-    width: 1920px;
+    width: 100%;
     height: 835px;
     background-image: url(img/BackgroundPrice.png);
     display: flex;
@@ -337,6 +348,7 @@ html, body{
     text-align: center;
     color: #929292;
     margin-top: 20px;
+    font-weight: 500;
 }
 .dol{
     font-size: 16px;
@@ -354,3 +366,179 @@ html, body{
 .buy{
     margin-left: 100px;
 }
+.period{
+    width: 360px;
+    height: 245px;
+    margin-right: 40px;
+}
+.fifth-period-title{
+    font-size: 32px;
+    text-align: left;
+    color: #333333;
+    margin-bottom: 40px;
+}
+.fifth-period-lorem{
+    color: #929292;
+    font-size: 16px;
+    margin-bottom: 40px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.fifth-buttons{
+    display: flex;
+    justify-content: left;
+}
+.button4{
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background: #0063dd;
+    border: 2px solid #0063dd;
+    border-radius: 0 30px 30px 0;
+    height: 48px;
+    width: 165px;
+    overflow: hidden;
+    display: block;
+}
+.button3{
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background: #0063dd;
+    border: 2px solid #0063dd;
+    border-radius: 30px 0 0 30px;
+    height: 48px;
+    width: 165px;
+    overflow: hidden;
+    display: block;
+}
+.button3:hover{
+    color: #0f7bff;
+    background: #ffffff;
+    border: 2px solid #0f7bff;
+}
+.button4:hover{
+    color: #0f7bff;
+    background: #ffffff;
+    border: 2px solid #0f7bff;
+}
+.sixth{
+    width: 100%;
+    height: 610px;
+    background-image: url(img/bgTestim.png);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+ /* General styles */
+.sim-slider {
+    position: relative;
+    width: 1000px;
+    height: 250px;
+    margin-left: 113px;
+}
+.trust{
+    font-size: 32px;
+    color: #333333;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.sim-slider-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+}
+.sim-slider-element {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    transition: opacity 1s ease-in;
+    opacity: 0;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+}
+.twit{
+      margin-left: 160px;
+  }
+.mesage{
+    margin-right: 30px;
+    align-items: center;
+    width: 360px;
+    height: 210px;
+    background-color: #ffffff;
+}
+  .name{
+      margin-top: 40px;
+      margin-bottom: 15px;
+      margin-left: 30px;
+  }
+  .post{
+      margin-bottom: 30px;
+      color: #a1a1a1;
+      font-weight: 500;
+      margin-left: 30px;
+  }
+  .lorem-post{
+      color: #a1a1a1;
+      font-weight: 500;
+      margin-left: 30px;
+  }
+  div.sim-slider-arrow-left,
+  div.sim-slider-arrow-right {
+    width: 22px;
+    height: 40px;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0.6;
+    z-index: 4;
+  }
+  
+  div.sim-slider-arrow-left {
+    left: 10px;
+    top: 40%;
+    display: block;
+    background: url("sim-arrow-left.png") no-repeat;
+  }
+  
+  div.sim-slider-arrow-right {
+    right: 10px;
+    top: 40%;
+    display: block;
+    background: url("sim-arrow-right.png") no-repeat;
+  }
+  
+  div.sim-slider-arrow-left:hover {
+    opacity: 1.0;
+  }
+  
+  div.sim-slider-arrow-right:hover {
+    opacity: 1.0;
+  }
+  
+  div.sim-slider-dots {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: -100px;
+    z-index: 3;
+    text-align: left;
+  }
+  
+  span.sim-dot {
+    width: 30px;
+    height: 10px;
+    margin: 5px 7px;
+    padding: 0;
+    display: inline-block;
+    background-color: #0f7bff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
