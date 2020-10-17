@@ -6,7 +6,7 @@ html, body{
 .first{
     width:100%;
     height:1040px;
-    background-image: url(img/Shape\ 1.png);
+    background: url(img/Shape1.png) round;
 }
 .first-header{
     height: 100px;
@@ -17,6 +17,7 @@ html, body{
 .signup{
     font-weight: 500;
     margin-right: 140px;
+    margin-top: 44px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end
@@ -67,7 +68,7 @@ html, body{
     border-radius: 30px 30px;
     height: 53px;
     width: 165px;
-    margin-top: 25px;
+    margin-top: -24px;
     overflow: hidden;
     display: block;
 }
@@ -192,7 +193,7 @@ html, body{
 .third{
     width: 100%;
     height: 1190px;
-    background: url(img/Background.png) no-repeat;
+    background: url(img/Background.png) round;
     background-size: 100%;
 }
 .third-blocks{   
@@ -262,7 +263,9 @@ html, body{
 .fourth{
     width: 100%;
     height: 645px;
-    background-image: url(img/BackgroundHow.png);
+    background-image: url(img/Line.png), url(img/bgHow.png);
+    background-repeat: no-repeat, round;
+    background-position: bottom 295px center, center;
 }
 .fourth-lorem-block{
     display: flex;
@@ -270,7 +273,10 @@ html, body{
     align-items: center;
 }
 .fourth-title{
+    background: url(img/2.png) no-repeat, url(img/1.png) no-repeat;
+    background-position: bottom 8px right 75px, bottom 0px right 110px;
     padding-top: 150px;
+    padding-bottom: 20px;
     text-align: center;
     font-size: 32px;
     color: #333333;
@@ -278,7 +284,7 @@ html, body{
 .fourth-lorem-title{
     font-weight: 500;
     width: 750px;
-    margin-top: 45px;
+    margin-top: 25px;
     font-size: 16px;
     color: #929292;
     text-align: center;
@@ -308,6 +314,8 @@ html, body{
     color: #333333;
 }
 .img-progress{
+    width: 100px;
+    height: 100px;
     margin-left: 100px;
 }
 .fifth{
@@ -475,55 +483,23 @@ html, body{
     height: 210px;
     background-color: #ffffff;
 }
-  .name{
+.name{
       margin-top: 40px;
       margin-bottom: 15px;
       margin-left: 30px;
   }
-  .post{
+.post{
       margin-bottom: 30px;
       color: #a1a1a1;
       font-weight: 500;
       margin-left: 30px;
   }
-  .lorem-post{
+.lorem-post{
       color: #a1a1a1;
       font-weight: 500;
       margin-left: 30px;
-  }
-  div.sim-slider-arrow-left,
-  div.sim-slider-arrow-right {
-    width: 22px;
-    height: 40px;
-    position: absolute;
-    cursor: pointer;
-    opacity: 0.6;
-    z-index: 4;
-  }
-  
-  div.sim-slider-arrow-left {
-    left: 10px;
-    top: 40%;
-    display: block;
-    background: url("sim-arrow-left.png") no-repeat;
-  }
-  
-  div.sim-slider-arrow-right {
-    right: 10px;
-    top: 40%;
-    display: block;
-    background: url("sim-arrow-right.png") no-repeat;
-  }
-  
-  div.sim-slider-arrow-left:hover {
-    opacity: 1.0;
-  }
-  
-  div.sim-slider-arrow-right:hover {
-    opacity: 1.0;
-  }
-  
-  div.sim-slider-dots {
+} 
+div.sim-slider-dots {
     width: 100%;
     height: auto;
     position: absolute;
@@ -532,17 +508,16 @@ html, body{
     z-index: 3;
     text-align: left;
   }
-  
-  span.sim-dot {
-    width: 30px;
-    height: 10px;
-    margin: 5px 7px;
-    padding: 0;
-    display: inline-block;
-    background-color: #0f7bff;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+span.sim-dot {
+  width: 30px;
+  height: 10px;
+  margin: 5px 7px;
+  padding: 0;
+  display: inline-block;
+  background-color: #0f7bff;
+  border-radius: 5px;
+  cursor: pointer;
+}
 .seventh{
     background-image: url(img/bgLatest.png);
     display: flex;
@@ -560,6 +535,10 @@ html, body{
     margin-bottom: 50px;
 }
 .latest-title{
+    background: url(img/2.png) no-repeat, url(img/1.png) no-repeat;
+    background-position: bottom 8px right 320px, bottom 0px right 365px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 32px;
     color: #333333;
     text-align: center;
@@ -689,9 +668,9 @@ html, body{
     line-height: 62px;
     text-align: center;
     text-decoration: none;
-    color: #ffffff;
-    background: #0063dd;
-    border: 2px solid #0063dd;
+    color: #0063dd;
+    background: #ffffff;
+    border: 2px solid #ffffff;
     border-radius: 0 30px 30px 0;
     height: 62px;
     width: 165px;
@@ -699,9 +678,9 @@ html, body{
     display: block;
 }
 .subbut:hover{
-    color: #0063dd;
-    background: #ffffff;
-    border: 2px solid #ffffff;
+    color: #ffffff;
+    background: #0063dd;
+    border: 2px solid #0063dd;
 }
 .appsonlast{
     font-weight: 600;
@@ -761,7 +740,7 @@ html, body{
     left: 48.3%;
     top: 1008px;
 }
-@media (max-width: 800px) {
+@media (min-width: 600px) and (max-width: 1024px) {
     h1{font-size: 16px !important;}
     h2{font-size: 12px !important;}
     h3{font-size: 12px !important;}
@@ -821,7 +800,8 @@ html, body{
         width: 60%;
         height: 60%;
     }
-    lorem-block-left{
+    .lorem-block-left{
+        width: 500px;
         font-size: 12px;
     }
     .third-title{
@@ -925,29 +905,182 @@ html, body{
     .screan-top-left{
         margin-left: 20px;
     }
+    .lorem-middle{
+        color: #333333;
+    }
+    .scroll{
+        visibility: hidden;
+    }
 }
-@media (min-width: 800px) and (max-width: 1400px) {
+@media (max-width: 600px) {
+    h1{font-size: 14px !important;}
+    h2{font-size: 10px !important;}
+    h3{font-size: 10px !important;}
+    h4{font-size: 10px !important;}
+    a{font-size: 10px !important;}
+    .button1{
+        width: 100px;
+        height: 35px;
+        line-height: 37px;
+    }
+    .button2{
+        width: 100px;
+        height: 35px;
+        line-height: 37px;
+    }
+    .button3{
+        width: 100px;
+        height: 35px;
+        line-height: 37px;
+    }
+    .button4{
+        width: 100px;
+        height: 35px;
+        line-height: 37px;
+    }
+    .first{
+        height: 400px;
+    }
+    .signup{
+        margin-right: 10px;
+    }
+    .appson{
+        margin-left: 10px;
+    }
+    .sixth-img{
+        visibility: hidden;
+    }
+    .device-back{
+        visibility: hidden;
+    }
+    .device-middle{
+        visibility: hidden;
+    }
     .screan-bot-left{
+        margin-top: 15px;
         width: 60%;
         height: 60%;
     }
     .screan-bot-right{
-        width: 50%;
-        height: 50%;
+        visibility: hidden;
     }
     .screan-top-right{
-        width: 50%;
-        height: 50%;
+        visibility: hidden;
     }
-    .screan-bot-left{
+    .screan-top-left{
+        margin-top: 15px;
         width: 60%;
         height: 60%;
     }
-    lorem-block-left{
+    .lorem-block-left{
+        width: 500px;
         font-size: 12px;
     }
     .third-title{
+        margin-top: 50px;
         font-size: 24px;
+    }   
+    .second-block-middle{
+        width: 200px;
+    }  
+    .second-block{
+        width: 200px;
     } 
-   
+    .third{
+        height: 700px;
+        background-image: url(img/bgLatest.png);
+    }
+    .third-blocks{
+        width: 100%;
+        height: 50%;
+    }
+    .third-text-top{
+        width: 500px;
+        margin-top: 20px;
+        padding-left: 0;
+    }
+    .third-text-bot{
+        width: 500px;
+        margin-left: 30px;
+    }
+    .scroll{visibility:hidden;}
+    .scrolldown{visibility:hidden;}
+    .fourth{
+        background-image: url(img/bgTestim.png);
+    }
+    .img-progress{
+        margin-left: 40px;
+    }
+    .price{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 200px;
+        height: 550px;
+    }
+    .fifth-img{
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+    .line{
+        height: 2px;
+        margin-left: 30px;
+        width: 145px;
+        color: #e0e0e0;
+    }
+    .buy{
+        margin-left: 40px;
+    }
+    .period{
+        margin-left: 20px;
+    }
+    .sixth-left{
+        width: 1px;
+        visibility: hidden;
+    }
+    .sim-slider{
+        margin-right: 50px;
+    }
+    .margright24{
+        margin-right: 70px;
+    }
+    .margright10{
+        margin-right: 20px;
+    }
+    .seventh-left{
+        margin-right: 15px;
+        width: 300px;
+        height: 430px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+    .seventh-right{
+        margin-left: 15px;
+        width: 300px;
+        height: 270px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+    .news-title{
+        width: 150px;
+    }
+    .margleft30{
+        width: 150px;
+    }
+    .marginbot40{
+        margin-bottom: 30px;
+    }
+    .seventh-lorem{
+        width: 150px;
+    }
+    .screan-top-left{
+        margin-left: 20px;
+    }
+    .lorem-middle{
+        color: #333333;
+    }
+    .scroll{
+        visibility: hidden;
+    }
 }
