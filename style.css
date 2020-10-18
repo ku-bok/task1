@@ -16,11 +16,13 @@ html, body{
 }
 .signup{
     font-weight: 500;
-    margin-right: 140px;
     margin-top: 44px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end
+}
+.header__menu{
+    display: flex;
 }
 .appson{
     font-weight: 600;
@@ -68,7 +70,8 @@ html, body{
     border-radius: 30px 30px;
     height: 53px;
     width: 165px;
-    margin-top: -24px;
+    margin-top: -20px;
+    margin-right: 140px;
     overflow: hidden;
     display: block;
 }
@@ -283,7 +286,7 @@ html, body{
 }
 .fourth-lorem-title{
     font-weight: 500;
-    width: 750px;
+    width: 100%;
     margin-top: 25px;
     font-size: 16px;
     color: #929292;
@@ -302,8 +305,8 @@ html, body{
     text-align: center;
 }
 .progress-block{
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 45px;
+    margin-right: 45px;
     width: 300px;
     height: 220px;
 }
@@ -528,7 +531,7 @@ span.sim-dot {
     align-items: center;
 }
 .latest{
-    width: 750px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     margin-top: 152px;
@@ -544,6 +547,7 @@ span.sim-dot {
     text-align: center;
 }
 .seventh-blocks{
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -740,7 +744,7 @@ span.sim-dot {
     left: 48.3%;
     top: 1008px;
 }
-@media (min-width: 600px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     h1{font-size: 16px !important;}
     h2{font-size: 12px !important;}
     h3{font-size: 12px !important;}
@@ -833,9 +837,6 @@ span.sim-dot {
     }
     .scroll{visibility:hidden;}
     .scrolldown{visibility:hidden;}
-    .fourth{
-        background-image: url(img/bgTestim.png);
-    }
     .img-progress{
         margin-left: 40px;
     }
@@ -911,17 +912,95 @@ span.sim-dot {
     .scroll{
         visibility: hidden;
     }
+    .seventh{
+        height: 700px;
+    }
+    .latest-title{
+        padding-top: 40px;
+    }
+    .fourth{
+        background-position: bottom 420px center, center;
+    }
+    .fourth-title{
+        padding-top: 50px;
+        background-position: bottom 8px right 25px, bottom 0px right 65px;
+    }
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+    .menu-burger__header {
+        position: relative;
+        width: 40px;
+        height: 35px;
+        display: block;
+        margin-left: 10px;
+        }
+    .menu-burger__header span, .menu-burger__header:after, .menu-burger__header:before{
+        height: 3px;
+        width: 100%;
+        position: absolute;
+        background: #515758;
+        margin: 0 auto;
+    }
+    .menu-burger__header span{
+        top: 21px;
+    }
+    .menu-burger__header:after, .menu-burger__header:before{
+        content: '';
+    }
+    .menu-burger__header:after{
+        bottom: 5px;
+    }
+    .menu-burger__header:before{
+        top: 14px;
+    }
+    .header__nav {
+        display: none;
+    }
+
+    .menu-burger__header.open-menu span {
+        opacity:0; 
+        transition: 0.5s; 
+    }
+    .menu-burger__header.open-menu:before {
+        transform: rotate(38deg);
+        top: 16px;
+        transition: 0.4s;
+    }
+    .menu-burger__header.open-menu:after {
+        transform: rotate(-38deg);
+        bottom: 16px;
+        transition: 0.4s;
+    }
+    .header__nav.open-menu {
+        left: 0;
+    }
+    .header__menu {
+        display: block;
+    }
+
+    .header__nav {
+        display: block;
+        position: absolute;
+        top: 55px;
+        left: 0;
+        background: rgb(245, 246, 246);
+        box-shadow: #ccc;
+        width: 100%;
+        box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.17);
+        left: -100%;
+        transition: all 0.4s ease;
+    }
+
     h1{font-size: 14px !important;}
     h2{font-size: 10px !important;}
     h3{font-size: 10px !important;}
     h4{font-size: 10px !important;}
     a{font-size: 10px !important;}
     .button1{
-        width: 100px;
-        height: 35px;
+        width: 70px;
+        height: 37px;
         line-height: 37px;
+        margin-right: 3px;
     }
     .button2{
         width: 100px;
@@ -957,9 +1036,7 @@ span.sim-dot {
         visibility: hidden;
     }
     .screan-bot-left{
-        margin-top: 15px;
-        width: 60%;
-        height: 60%;
+        visibility: hidden;
     }
     .screan-bot-right{
         visibility: hidden;
@@ -968,12 +1045,10 @@ span.sim-dot {
         visibility: hidden;
     }
     .screan-top-left{
-        margin-top: 15px;
-        width: 60%;
-        height: 60%;
+        visibility: hidden;
     }
     .lorem-block-left{
-        width: 500px;
+        width: 300px;
         font-size: 12px;
     }
     .third-title{
@@ -981,10 +1056,14 @@ span.sim-dot {
         font-size: 24px;
     }   
     .second-block-middle{
-        width: 200px;
+        width: 150px;
+        margin-left: 5px;
+        margin-right: 5px;
     }  
     .second-block{
-        width: 200px;
+        width: 150px;
+        margin-left: 5px;
+        margin-right: 5px;
     } 
     .third{
         height: 700px;
@@ -1005,32 +1084,31 @@ span.sim-dot {
     }
     .scroll{visibility:hidden;}
     .scrolldown{visibility:hidden;}
-    .fourth{
-        background-image: url(img/bgTestim.png);
-    }
     .img-progress{
         margin-left: 40px;
     }
     .price{
-        margin-left: 10px;
-        margin-right: 10px;
-        width: 200px;
-        height: 550px;
+        margin-left: 8px;
+        margin-right: 8px;
+        width: 150px;
+        height: 500px;
     }
     .fifth-img{
         margin-top: 30px;
-        margin-left: 60px;
+        margin-left: 30px;
     }
     .line{
         height: 2px;
         margin-left: 30px;
-        width: 145px;
+        width: 90px;
         color: #e0e0e0;
     }
     .buy{
-        margin-left: 40px;
+        margin-left: 20px;
     }
     .period{
+        margin-right: 10px;
+        width: 150px;
         margin-left: 20px;
     }
     .sixth-left{
@@ -1038,7 +1116,14 @@ span.sim-dot {
         visibility: hidden;
     }
     .sim-slider{
-        margin-right: 50px;
+        margin-right: 90px;
+    }
+    .twit{
+       visibility: hidden;
+    }
+    .mesage{
+        width: 150px;
+        margin-right: 15px;
     }
     .margright24{
         margin-right: 70px;
@@ -1047,25 +1132,20 @@ span.sim-dot {
         margin-right: 20px;
     }
     .seventh-left{
+        margin-left: 30px;
         margin-right: 15px;
-        width: 300px;
+        width: 100%;
         height: 430px;
         display: flex;
         flex-direction: column;
         justify-content: left;
     }
     .seventh-right{
-        margin-left: 15px;
-        width: 300px;
-        height: 270px;
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
+        width: 0%;
+        height: 0%;
+       visibility: hidden;
     }
     .news-title{
-        width: 150px;
-    }
-    .margleft30{
         width: 150px;
     }
     .marginbot40{
@@ -1082,5 +1162,45 @@ span.sim-dot {
     }
     .scroll{
         visibility: hidden;
+    }
+    .fourth-title{
+        padding-top: 20px;
+        background-position: bottom 8px right 75px, bottom 0px right 80px;
+    }
+    .latest{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .seventh{
+        height: 700px;
+    }
+    .latest-title{
+        padding-top: 40px;
+        background-position: bottom 7px right 205px, bottom 0px right 245px;
+    }
+    .sixth{
+        height: 550px;
+    }
+    .fifth{
+        height: 600px;
+    }
+    .fourth{
+        height: 450px;
+        background-position: bottom 265px center, center;
+    }
+    .img-progress{
+        margin-left: 10px;
+    }
+    .progress-block{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .started{
+        line-height: 50px;
+        height: 50px;
+        width: 180px;
+    }
+    .inemail{
+        width: 280px;
     }
 }
