@@ -26,7 +26,9 @@ html, body{
 }
 .appson{
     font-weight: 600;
-    margin-left: 140px;
+    position: absolute;
+    top: 0;
+    left: 140px;
     width: 180px;
     height: 100px;
     background-color: #0f7bff;
@@ -141,6 +143,9 @@ html, body{
     margin-right: -140px;
     margin-top: -70px;
     z-index: 2;
+}
+.index{
+    z-index: 3;
 }
 .second{
     display: flex;
@@ -744,7 +749,7 @@ span.sim-dot {
     left: 48.3%;
     top: 1008px;
 }
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1280px) {
     h1{font-size: 16px !important;}
     h2{font-size: 12px !important;}
     h3{font-size: 12px !important;}
@@ -754,6 +759,8 @@ span.sim-dot {
         width: 100px;
         height: 35px;
         line-height: 37px;
+        margin-right: 50px;
+        margin-top: -10px;
     }
     .button2{
         width: 100px;
@@ -777,7 +784,9 @@ span.sim-dot {
         margin-right: 10px;
     }
     .appson{
-        margin-left: 10px;
+        position: absolute;
+        top: 0;
+        left: 50;
     }
     .sixth-img{
         visibility: hidden;
@@ -926,7 +935,7 @@ span.sim-dot {
         background-position: bottom 8px right 25px, bottom 0px right 65px;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .menu-burger__header {
         position: relative;
         width: 40px;
@@ -990,7 +999,8 @@ span.sim-dot {
         left: -100%;
         transition: all 0.4s ease;
     }
-
+}
+@media (max-width: 768px) {
     h1{font-size: 14px !important;}
     h2{font-size: 10px !important;}
     h3{font-size: 10px !important;}
@@ -1074,6 +1084,7 @@ span.sim-dot {
         height: 50%;
     }
     .third-text-top{
+        margin-left: 30px;
         width: 500px;
         margin-top: 20px;
         padding-left: 0;
@@ -1186,7 +1197,9 @@ span.sim-dot {
     }
     .fourth{
         height: 450px;
-        background-position: bottom 265px center, center;
+        background-image: url(img/bgHow.png);
+        background-repeat: round;
+        background-position: center;
     }
     .img-progress{
         margin-left: 10px;
@@ -1202,5 +1215,9 @@ span.sim-dot {
     }
     .inemail{
         width: 280px;
+    }
+    .third-screan{
+        width: 0;
+        height: 0;
     }
 }
